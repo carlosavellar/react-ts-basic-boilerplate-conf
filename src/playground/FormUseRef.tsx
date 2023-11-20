@@ -8,7 +8,9 @@ interface FormUseRef {
 function FormUseRef(props: FormUseRef) {
   return (
     <div>
-      <input />
+      <h1 className="&-title">Red</h1>
+
+      <input className="" />
     </div>
   );
 }
